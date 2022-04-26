@@ -3,7 +3,7 @@ import ZodiacCard from '../ZodiacCard/ZodiacCard.js'
 import backgroundImg from '../../background.png'
 import './Main.css'
 
-export default function Main() {
+export default function Main({ zodiac }) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
       {zodiac.map((item) => (
