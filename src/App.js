@@ -11,7 +11,7 @@ function App() {
       <h1>Header</h1>
       <div className="App">
         <Header />
-        <Main items={zodiac} />
+        <Main zodiac={zodiac} />
         <Footer />
       </div>
     </div>
